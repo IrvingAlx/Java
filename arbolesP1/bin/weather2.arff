@@ -1,0 +1,16 @@
+@relation mauricio
+
+@attribute clima {Calor,Viento,Lluvia} 
+@attribute viveConPadres {NO,SI} 
+@attribute situacionAcademica {Buena,Mala}
+@attribute panorama {Casa,Cine}
+
+@data
+Calor,SI,Buena,Cine
+Viento,SI,Mala,Cine
+Lluvia,NO,Buena,Casa
+Calor,SI,Mala,Casa
+Viento,NO,Mala,Casa
+Lluvia,SI,Mala,Cine
+Viento,SI,Buena,Cine
+Lluvia,NO,Mala,Cine
